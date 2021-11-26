@@ -18,7 +18,8 @@ This picture shows another innovation of soldering a wire to the +5 and GND of t
 
 <img src="./20211125_235709 (Large).jpg">
 
-Here are the calulations from the digikey website.
+Here are the calulations from the digikey website.  
+https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-555-timer
 
 <img src="./Screenshot 2021-11-26 000134.jpg">
 
