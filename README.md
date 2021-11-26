@@ -51,5 +51,7 @@ https://www.youtube.com/watch?v=lOL3ic8msas
 https://www.youtube.com/watch?v=fHCnblxkbwI
 ![image](https://user-images.githubusercontent.com/36938190/143623142-98ef7a32-33af-49b6-a3b3-563b01d9535a.png)
 
+---
 
+Good theory here: https://www.electronics-tutorials.ws/waveforms/555-circuits-part-1.html
 
