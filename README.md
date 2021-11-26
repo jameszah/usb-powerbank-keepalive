@@ -27,3 +27,29 @@ This powerbanks also seem to have some circuit that detects when the load drops 
 
 Also, I have a different solution for an rp2040 device -- it does not work for sleeping mode, but if the rp2040 is running you can just turn on a gpio and short it to ground through a 10 ohm resitor for 125 millis-seconds every 15 seconds, and it will keep this model of usb-powerbank awake.  It would be more efficient than this hardware solution.  Some powerbanks I have require 350 ms, or 2 gpios to be shorted through a 10 ohm resistor, or this one shown can be fooled by 125 ms through a 10 ohm, and a led with a 330 ohm resistor through another gpio -- the flashing light gives you an idication that the keep-alive is working.
 
+It seems the google search "usb keepalive" did the trick for other solutions -- some with 555, some attiny, and some for sale!
+
+The diode between 6 and 7, flips the mostly high output on 3, to mostly low, so you can use an npn transistor to turn on the led or otherwise burn some current through a resistor.
+
+---
+
+https://www.tindie.com/products/plop211/power-bank-keep-alive-based-on-555-timer-smd/
+![image](https://user-images.githubusercontent.com/36938190/143622957-1d831199-382c-49d6-a911-f72688d4e251.png)
+
+---
+
+https://blog.zakkemble.net/smart-power-bank-keep-alive/
+![image](https://user-images.githubusercontent.com/36938190/143623113-428498d1-6ed6-4036-8ba4-69d4e4b60523.png)
+
+---
+
+https://www.youtube.com/watch?v=lOL3ic8msas
+![image](https://user-images.githubusercontent.com/36938190/143623180-4f2c8cf4-991d-4395-b94c-31c6181457e0.png)
+
+---
+
+https://www.youtube.com/watch?v=fHCnblxkbwI
+![image](https://user-images.githubusercontent.com/36938190/143623142-98ef7a32-33af-49b6-a3b3-563b01d9535a.png)
+
+
+
